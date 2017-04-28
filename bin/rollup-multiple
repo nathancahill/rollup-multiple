@@ -4,7 +4,7 @@
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
 var fs = require('fs');
-var rollup = require('../dist/rollup.js');
+var rollup = require('rollup');
 var path = require('path');
 var path__default = _interopDefault(path);
 var module$1 = _interopDefault(require('module'));

@@ -27,7 +27,4 @@ export default {
 		'source-map-support',
 		'rollup'
 	],
-	paths: {
-		rollup: '../dist/rollup.js'
-	}
 };
