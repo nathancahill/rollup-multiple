@@ -1,6 +1,6 @@
 {
   "name": "rollup-multiple",
-  "version": "1.0.0",
+  "version": "0.41.6",
   "description": "",
   "scripts": {
     "build": "rollup -c rollup.config.cli.js && chmod a+x bin/rollup-multiple"
