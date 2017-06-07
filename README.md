@@ -1,6 +1,8 @@
 
 # Rollup-Multiple
 
+> 🚨 Now obsolete, merged in Rollup core 🎉
+
 A very simple CLI wrapper around Rollup that behaves exactly like the Rollup CLI (in fact, the code is identical, for all intents and purposes, a fork).
 
 ## Installation
@@ -55,6 +57,6 @@ export default [
 
 ## Notes
 
-There's a PR open to merge this functionality into Rollup CLI, see [#1389](https://github.com/rollup/rollup/pull/1389). Meanwhile, I'll try to maintain this, tracking new Rollup releases.
+There's a PR open to merge this functionality into Rollup CLI, see [#1389](https://github.com/rollup/rollup/pull/1389). This PR has now been merged. Do not use Rollup-Multiple.
 
 There's no optimizing done to run two builds in parallel, they are simply rolled at the same time. The total difference between the two codebases is about 10 lines of code to handle the case where the config is an array.
